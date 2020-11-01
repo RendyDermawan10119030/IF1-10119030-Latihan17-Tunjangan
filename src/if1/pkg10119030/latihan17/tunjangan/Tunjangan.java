@@ -1,4 +1,5 @@
 package if1.pkg10119030.latihan17.tunjangan;
+import java.util.Scanner;
 /**
 * Nama              :Rendy Dermawan
 * NIM               :10119030
@@ -27,7 +28,7 @@ public class Tunjangan {
         System.out.println("Tunjangan\t\t:"+tunjangan);
         System.out.println("Total Gaji\t\t:"+(gaji+tunjangan));
     }
-    public static void main(string[] args){
+    public static void main(String[] args){
         Tunjangan data = new Tunjangan();
         data.masukkanTunjangan();
         double hitung = data.hitungTunjangan();
